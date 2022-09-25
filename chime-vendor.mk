@@ -814,8 +814,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chime/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/chime/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.2.so \
     vendor/xiaomi/chime/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.eeprom.citrus_ofilm_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.citrus_ofilm_ov8856_front_eeprom.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.eeprom.citrus_sunny_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.citrus_sunny_ov8856_front_eeprom.so \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.eeprom.lime_ofilm_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lime_ofilm_ov8856_front_eeprom.so \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.eeprom.lime_sunny_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lime_sunny_ov8856_front_eeprom.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_ofilm_ov8856_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_ofilm_ov8856_front.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_hi259_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_hi259_macro.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov02b1b_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_ov02b1b_depth.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov8856_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_ov8856_front.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1sp_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1sp_main.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1st_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1st_main.so \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.lime_aac_gc02m1_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_aac_gc02m1_macro.so \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.lime_aacaf_hi259_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_aacaf_hi259_macro.so \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.lime_acc_ov8856_ultra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_acc_ov8856_ultra.so \
@@ -828,6 +836,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.lime_sunny_ov8856_ultra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_sunny_ov8856_ultra.so \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.lime_sunny_s5kgm1sp_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_sunny_s5kgm1sp_main.so \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensor.lime_sunny_s5kgm1st_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_sunny_s5kgm1st_main.so \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856_front.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856g2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856g2_front.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_hi259_macro.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov02b1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_ov02b1b_depth.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856_front.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856g2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856g2_front.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1sp_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1sp_main.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1st_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1st_main.bin \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_aac_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_aac_gc02m1_macro.bin \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_aacaf_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_aacaf_hi259_macro.bin \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_acc_ov8856_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_acc_ov8856_ultra.bin \
@@ -843,6 +859,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_ov8856g2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_ov8856g2_front.bin \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_s5kgm1sp_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_s5kgm1sp_main.bin \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_s5kgm1st_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_s5kgm1st_main.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_ofilm_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_ofilm_ov8856_front.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro_india.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth_india.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_global.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_india.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main_india.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main.bin \
+    vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main_india.bin \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.lime_aac_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_aac_gc02m1_macro.bin \
     vendor/xiaomi/chime/proprietary/vendor/lib64/camera/com.qti.tuned.lime_aac_gc02m1_macro_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_aac_gc02m1_macro_india.bin \
